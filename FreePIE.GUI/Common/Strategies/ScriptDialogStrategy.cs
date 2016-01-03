@@ -9,7 +9,7 @@ namespace FreePIE.GUI.Common.Strategies
     public class ScriptDialogStrategy
     {
         private readonly IResultFactory resultFactory;
-        private const string fileFilter = "Python scripts (*.py)|*.py|All files (*.*)|*.*";
+        private const string fileFilter = "FreePIE scripts (*.freePy; *.py)|*.freePy;*.py|Python scripts (*.py)|*.py|All files (*.*)|*.*";
 
         public ScriptDialogStrategy(IResultFactory resultFactory)
         {
