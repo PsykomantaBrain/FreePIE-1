@@ -6,7 +6,7 @@
         xmlns:avalonDock1="clr-namespace:FreePIE.GUI.Common.AvalonDock"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" mc:Ignorable="d" x:Class="FreePIE.GUI.Shells.MainShellView"
         Title="FreePIE" Background="{DynamicResource WindowBackgroundBrush}" 
-        Width="780">
+        Width="1000">
     <Window.Resources>
         <xcad:BoolToVisibilityConverter x:Key="BoolToVisibilityConverter"/>
     </Window.Resources>
